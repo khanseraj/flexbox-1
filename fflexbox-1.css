@@ -1,0 +1,113 @@
+.container{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+}
+.container-2{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 200px;
+}
+.container-3{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200px;
+}
+.container-4{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+.container-5{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: center;
+}
+.container-6{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+.container-7{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* align-content: flex-end; */
+    height: 300px;
+    align-items: center;
+}
+.container-8{
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    /* align-content: flex-end; */
+    height: 300px;
+    align-items: center;
+}
+.child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+
+}
+.center{
+    position: relative;
+    left: 450px;
+}
+.center-1{
+    position: relative;
+    left: 420px;
+}
+#one{
+    order: 2;
+}
+#two{
+    order: 3;
+}
+#three{
+    order: 1;
+}
